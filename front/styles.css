@@ -1,0 +1,165 @@
+body
+{
+line-height: 1;
+background-color:#282828;
+}
+
+mark
+{
+border: 0px solid DarkSlateGrey;
+border-radius: 30px;
+background-color: transparent;
+color: grey;
+text-align: left;
+}
+
+progress {
+
+  border: 0;
+  height: 6px;
+  width: 120px;
+  border-radius: 3px;
+}
+
+progress::-webkit-progress-bar {
+
+  background-color: grey;
+  border: 0;
+  height: 6px;
+  width: 120px;
+  border-radius: 3px;
+}
+
+progress::-webkit-progress-value {
+
+  background-color: yellow;
+  border: 0;
+  height: 6px;
+  width: 120px;
+  border-radius: 3px;
+
+}
+progress::-moz-progress-bar {
+
+  background-color: #f3f3f3;
+  border: 0;
+  height: 6px;
+  width: 120px;
+  border-radius: 3px;
+
+}
+
+table {
+vertical-align: top;
+margin:0px;
+
+    border: 0px double #333; /* Рамка вокруг таблицы */ 
+    border-collapse: separate; /* Способ отображения границы */ 
+/*    width: 100%; /* Ширина таблицы */ 
+    border-spacing: 0px 0px; /* Расстояние между ячейками */ 
+   }
+table.maintable
+{
+/*margin:10px;*/
+/*padding: 10px;*/
+border: 0px solid #333;
+border-radius: 10px;
+}
+table.sublevel0
+{
+margin-left: 0px;
+}
+table.sublevel1
+{
+margin-left: 30px;
+}
+table.sublevel2
+{
+margin-left: 60px;
+}
+table.quest{
+border-spacing: 10px;
+}
+
+td {
+line-height: 0.6;
+height: 40px;
+vertical-align: top;
+    padding: 2px; /* Поля вокруг текста */ 
+    border: 0px solid #a52a2a; /* Граница вокруг ячеек */ 
+}
+
+td.quest{
+font-size: 10px;
+margin: 10px;
+padding: 1px;
+width: 24px;
+height: 24px;
+vertical-align: middle;
+text-align: center;
+border: 1px solid #a52a2a;
+}
+td.emptytd{
+width: 24px;
+height: 24px;
+}
+div{	width: 34px;
+	height: 34px;
+	-webkit-border-radius: 17px;
+	-moz-border-radius: 17px;
+	border-radius: 17px;	
+	vertical-align: middle;
+	text-align: center;
+	line-height: 34px;
+}
+div.engineer{	
+	background-color: #3FA9F5;}
+div.designer{
+	background-color: #F15A24;}
+div.programmer{
+	background-color: #22B573;}
+div.unavailable{
+	background-color: #B3B3B3;}
+
+div.quest{
+text-align: center;
+border: solid 0px #FFFFFF;
+}
+
+b{ margin-left: -5px;}
+b.engineer{color: #3FA9F5;}
+b.designer{color: #F15A24;}
+b.programmer{color: #22B573;}
+b.unavailable{color: #B3B3B3;}
+
+.engineer::-webkit-progress-value {
+background-color: #3FA9F5;}
+.designer::-webkit-progress-value {
+background-color: #F15A24;}
+.programmer::-webkit-progress-value {
+background-color: #22B573;}
+
+select{
+background-color: #282828;
+border-color: #B3B3B3;
+color: #B3B3B3;
+border-radius: 10px;
+}
+
+input{
+background-color: #282828;
+border-color: #B3B3B3;
+color: #B3B3B3;
+border-radius: 10px;
+}
+
+button{
+background-color: #282828;
+border-color: #B3B3B3;
+color: #B3B3B3;
+border-radius: 10px;
+}
+
+h1{color: #B3B3B3;}
+
+small {color: #595959; font-size: 1; }
